@@ -1,0 +1,10 @@
+#!/home/shivaji/Shivaji_HackUVA/AskMeEverything/venv/bin/python2.7
+# EASY-INSTALL-ENTRY-SCRIPT: 'virtualenv==12.0.7','console_scripts','virtualenv'
+__requires__ = 'virtualenv==12.0.7'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('virtualenv==12.0.7', 'console_scripts', 'virtualenv')()
+    )
